@@ -19,3 +19,5 @@ async function getCharacter(characters, index) {
       if (index + 1 < characters.length) getCharacter(characters, index++);
     });
 }
+
+
